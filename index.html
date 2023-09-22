@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mező készítő</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="range" id="mezokSzama" min="2" max="10" value="4" onchange="sliderErtek()">
+        <p id="mezokSzamaErtek">4</p>
+    </div>
+    <div>    
+        <input type="range" id="mezokSzelessege" min="20" max="100" value="80" onchange="sliderErtek()">
+        <p id="mezokSzelessegErtek">80</p>
+    </div>
+        <button id="keszitoGomb" onclick="mezoKeszitese()">Készít</button>
+    <table id="mezok">
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
